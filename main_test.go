@@ -9,7 +9,7 @@ import (
 
 func TestMain(t *testing.T) {
 	assert.Equal(t, "hello", "hello", "Hello should equal Hello")
-	main()
+	// main()
 	Convey("5 Should Equal 5", t, func() {
 		So(5, ShouldEqual, 5)
 	})
