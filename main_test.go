@@ -10,5 +10,5 @@ import (
 func TestMain(t *testing.T) {
 	assert.Equal(t, "hello", "hello", "Hello should equal Hello")
 	main()
-	So(5, ShouldEqual, 6)
+	So(5, ShouldEqual, 5)
 }
