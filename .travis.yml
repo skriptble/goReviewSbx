@@ -1,1 +1,10 @@
 language: go
+
+go:
+    - 1.2
+
+install:
+    - go get github.com/smartystreets/goconvey
+    - go get github.com/jacobsa/oglematchers
+    - go get github.com/stretchr/testify
+    - go build
