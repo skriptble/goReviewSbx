@@ -16,4 +16,6 @@ func main() {
 
 	fmt.Println("We are never ever getting back together")
 	fmt.Println("I'm glad you came")
+
+	fmt.Println("Hey, I just met you")
 }
